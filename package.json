@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npx webpack-dev-server --mode development",
+    "build": "npx webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,24 @@
   "bugs": {
     "url": "https://github.com/maransowthri/react_from_scratch/issues"
   },
-  "homepage": "https://github.com/maransowthri/react_from_scratch#readme"
+  "homepage": "https://github.com/maransowthri/react_from_scratch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  }
 }
